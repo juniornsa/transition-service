@@ -53,37 +53,3 @@ func (h *UserHandler) JiraQl(id int, sId string) (string, jira.Issue, error) {
 	}
 	return msg, I, nil
 }
-/*
- CT-9230 (UI Change Request/Normal): h1. Deployment
-
-*Components to Deploy*
- * UI/WS - 11694
- * Campaign Maintenance Service - {color:#ff0000}+*Do Not Deploy*+{color}
- * NUI - 2.100 - [https://github.vianttech.com/adelphic/newui/actions/runs/1155]
- * Reporting Service (GBQ) - 11694
- * Reporting Service (Vertica) - 11694
- * Forecasting Service (GBQ) - 11694
- * Cube Service (GBQ) - 11694
- * PWS - 11694
- * Micro-Services - See Below
- ** For [~smilbrandt] - CT-9213
-
-*Additional Requests*
- * [~wtseng], [~vnandakumar], [~ktummala], [~buparkar]  - Please check the schema.ddl for tonight's deployment.
- * Please deploy these changes to WalkMe, sandbox and UAT tonight.
- * Can you please flush the CDN cache on all 3 domains?
-
-*Notes*
- * N/A
-
-*Rollback*
- * UI/WS - 11620
- * NUI - 2.00
- * Reporting Service (GBQ) - 11620
- * Reporting Service (Vertica) - 11620
- * Forecasting Service (GBQ) - 11620
- * Cube Service (GBQ) - 11620
- * PWS - 11620
- * Micro-Services - N/A
-2021/10/10 10:05:41 jira.go:49: ==================================
- */
