@@ -30,7 +30,7 @@ func RestRequest(w http.ResponseWriter, s string, issue jira.Issue) {
 		client := &http.Client{}
 		response := bytes.NewBuffer([]byte(s))
 		req, err := http.NewRequest("POST",
-			"https://hhkun6d0i4-vpce-0dc63ab1993c84223.execute-api.us-east-1.amazonaws.com/v1/",
+			"https://<api gateway url>.execute-api.us-east-1.amazonaws.com/v1/",
 			response)
 		if err != nil {
 			log.Println(err)
