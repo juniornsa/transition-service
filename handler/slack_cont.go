@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"upworkfixmux/models"
+	"transition-service/models"
 	"bytes"
 	"encoding/json"
 	"log"

@@ -4,7 +4,7 @@ import (
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
-	"upworkfixmux/handler"
+	"transition-service/handler"
 )
 
 func main() {

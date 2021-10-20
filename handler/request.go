@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"upworkfixmux/models"
+	"transition-service/models"
 
 	"github.com/andygrunwald/go-jira"
 )

@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 	"time"
-	"upworkfixmux/models"
+	"../models"
 )
 
 type UserHandler struct {

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 	"time"
-	"upworkfixmux/models"
+	"transition-service/models"
 )
 
 const DefaultSlackTimeout = 5 * time.Second

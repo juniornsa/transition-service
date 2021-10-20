@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-	"upworkfixmux/models"
+	"transition-service/models"
 )
 
 func JSON(w http.ResponseWriter, code int, r *models.Response) {

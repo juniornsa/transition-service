@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-	"upworkfixmux/models"
+	"transition-service/models"
 
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"
